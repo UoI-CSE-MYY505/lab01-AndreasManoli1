@@ -9,7 +9,7 @@
                   #  so it is stored in the data memory section (0x10000000)
 
 matric: # Words ending with ':' are **labels**
-        # The common convention is to write labels starting from the leftmost column.
+        # The common convention is to write labels starting from the leftmost column
         # Try to keep label names short
         .word 5402  # This directive reserves enough space for a word in memory
                     #  and initializes it with the specific value.
